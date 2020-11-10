@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ *
+ * @ingroup templates
+ */
+#}
+{% if breadcrumb %}
+  <div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
+    <div class="flex-caption">
+      <div class="breadcrumb-wrap">
+        <div class="container-fluid">
+          <div class="row">
+            <ol class="breadcrumb">
+              {% for item in breadcrumb %}
+              <li {{ item.attributes }}>
+                {% if item.url %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+                {% else %}
+                {{ item.text }}
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ol>
+            <div class="breadcrumb-sitemap">
+              <li>
+                <a href="https://www.aesseal.com/en/sitemap">
+                  <i class="fas fa-sitemap">
+                  </i>
+                </a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
