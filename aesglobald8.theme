@@ -7,7 +7,7 @@
  * Place your custom PHP code in this file.
  */
 
- function aesglobal_preprocess_page(&$vars) {
+ function aesglobald8_preprocess_page(&$vars) {
    $variables['second_logo'] = theme_get_setting('secondary_logo_path');
    $variables['secondary_logo'] = theme_get_setting('secondary_logo');
      // template files called page--contenttype.tpl.php
@@ -24,12 +24,12 @@
     }
  }
 
- function aesglobal_preprocess(&$variables, $hook){
+ function aesglobald8_preprocess(&$variables, $hook){
    $variables['second_logo'] = theme_get_setting('secondary_logo_path');
    $variables['secondary_logo'] = theme_get_setting('secondary_logo');
  }
 
- function aesglobal_theme(){
+ function aesglobald8_theme(){
  	$items=array();
 
  	$items['user_login']=array(
@@ -43,7 +43,7 @@
  	return $items;
  }
 
- function aesglobal_preprocess_node(&$variables) {
+ function aesglobald8_preprocess_node(&$variables) {
 
     /*$accredblock = \Drupal\block\Entity\block::load('203');
     $block_content =\Drupal::entityTypeManager()
@@ -54,7 +54,7 @@
     $variables['employee_view'] = views_embed_view('employees', 'employees-block');
  }
 
- function aesglobal_preprocess_maintenance_page(&$variables) {
+ function aesglobald8_preprocess_maintenance_page(&$variables) {
    if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
  // Template suggestion for offline site
      $variables['theme_hook_suggestion'] = 'maintenance_page__offline';

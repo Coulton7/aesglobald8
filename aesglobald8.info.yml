@@ -3,7 +3,7 @@ base theme: aesbased8
 core: 8.x
 core_version_requirement: ^8 || ^9
 
-name: 'aesglobal'
+name: 'aesglobald8'
 description: 'Global site subtheme of aesbased8 theme'
 package: 'Bootstrap'
 
@@ -31,4 +31,4 @@ regions:
 
 libraries-extend:
     bootstrap/framework:
-      - aesglobal/framework
+      - aesglobald8/framework

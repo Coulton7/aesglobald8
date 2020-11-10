@@ -1,7 +1,7 @@
 <?php
 use Drupal\Core\Form\FormStateInterface;
 
-function aesglobal_form_system_theme_settings_alter(&$form, FormStateInterface $form_state, $form_id=NULL) {
+function aesglobald8_form_system_theme_settings_alter(&$form, FormStateInterface $form_state, $form_id=NULL) {
 
   if(isset($form_id)) {
       return;
