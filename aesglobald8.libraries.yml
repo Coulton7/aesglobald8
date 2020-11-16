@@ -1,4 +1,4 @@
-framework:
+global-styling:
   css:
     theme:
       /themes/aesbased8/css/jquery.scrolling-tabs.min.css: {}
