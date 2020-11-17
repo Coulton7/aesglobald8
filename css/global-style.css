@@ -646,7 +646,7 @@ a.btn-default:hover {
 
 blockquote {
   color: #002A5B;
-  background-image: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
+  background-image: url(/sites/all/themes/aesbased8/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbased8/images/graphics/blockquote-bottom.png);
   background-position: -0.5% 0%, 98.7% 100%;
   background-repeat: no-repeat;
   padding: 1.7em;
@@ -908,7 +908,7 @@ blockquote {
 }
 
 .lang-switch .chosen-container-single .chosen-single div b {
-  background: url(/sites/all/themes/aesbs337/css/chosen-sprite-white.png) no-repeat 0px 8px;
+  background: url(/sites/all/themes/aesbased8/css/chosen-sprite-white.png) no-repeat 0px 8px;
 }
 
 .lang-switch .chosen-container-active.chosen-with-drop .chosen-single div b {
